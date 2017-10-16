@@ -19,6 +19,7 @@ ALTER USER mydatabaseuser CREATEDB;
 python manage.py makemigrations # creates migrations
 python manage.py migrate # migrates changes
 python manage.py runserver # runs server
+python manage.py test polls # runs tests for polls app
 ```
 
 ## References
